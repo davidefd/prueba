@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="https://www.udb.edu.sv/udb/public/img/iconos/udb.ico">
+    <title>UDB Bank</title>
+</head>
+    <body>
+    <div class="container-sm-6">
+        <form action="#">
+                    <div class="mb-4">
+                        <img class="logobank" src="img/logoudb.png" alt="Pokemon Bank">
+                        <br>
+                        <center><h2>Bienvenido</h2></center>
+                        <label for="email" class="form-label">Usuario</label>
+                        <input id="userlog" type="email" class="form-control" name="email" placeholder="Usuario">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">PIN</label>
+                        <input id="passlog" type="password" class="form-control" name="password" placeholder="PIN">
+                    </div>
+                    <div class="d-grid">
+                        <input type="button" type="submit" class="btn btn-warning" onclick="login();" value="Iniciar Sesion">
+                        <center><p>UDB Bank</p></center>
+                    </div>
+                </form>
+    </div>  
+    </body>
+
+    <script src="js/bootstrap.js"> </script>
+    <script src="js/script.js"></script>
+</html>

@@ -1,0 +1,78 @@
+body{
+margin: 0;
+padding: 0;
+background: url(../img/fondo.jpeg) no-repeat center top;
+background-size: cover;
+font-family: sans-serif;
+height: 100vh;
+}
+.container-sm-6{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #AFEB82;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 5px 8px 5px black;
+    border-radius: 5px;
+    
+}
+.container-sm-6 .logobank{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: calc(45% - 50px);
+    
+}
+
+.container-sm-6 h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.container-sm-6 label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.container-sm-6 input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.container-sm-6 input[type="text"],
+container-sm-6 input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+    
+}
+
+.container-sm-6 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ffff00;
+    color: #0000ff;
+    font-size: 18px;
+    border-radius: 20px;
+}
